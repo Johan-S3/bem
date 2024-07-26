@@ -1,0 +1,19 @@
+.lista{
+  width: 400px;
+  background-color: var(--azul);
+
+}
+.lista__item{
+  padding: 12px;
+}
+.lista__item:not(:last-of-type){
+  border-bottom: solid 1px var(--negro);
+}
+
+.lista__texto{
+  padding: 12px;
+}
+
+.lista__icono{
+
+}
